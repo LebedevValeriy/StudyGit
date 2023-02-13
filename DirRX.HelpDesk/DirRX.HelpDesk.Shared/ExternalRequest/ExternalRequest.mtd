@@ -32,6 +32,43 @@
             "ColumnDefinitions"
           ],
           "SharedNestedGroupsAlignment": true
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "1a690895-fd94-4ae9-af77-1917fac25f20",
+          "Name": "ControlGroup1",
+          "IsAncestorMetadata": true,
+          "Overridden": [
+            "Controls",
+            "IsVisible"
+          ],
+          "SharedNestedGroupsAlignment": true
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "b017b59a-3b10-47df-857c-46495aadb80d",
+          "Name": "Author",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "1a690895-fd94-4ae9-af77-1917fac25f20",
+          "PropertyGuid": "ec5c177c-ccbb-4eff-a58c-eddfc1091d79",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "878e3590-f988-4c76-8819-59f83f0cc4e9",
+          "Name": "Result",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
+          "ParentGuid": "1a690895-fd94-4ae9-af77-1917fac25f20",
+          "PropertyGuid": "580cc3b9-9988-4ec0-a70e-ae2bc030ae39",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
         }
       ],
       "IsAncestorMetadata": true,
